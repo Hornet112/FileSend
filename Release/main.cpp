@@ -11,7 +11,6 @@
 #include"ECEngine.h"
 #include"GeneralBase.h"
 #include"readjson.h"
-#include "excute.h"
 //#include<Eigen/Dense>
 //#include<TypeDefine.h>
 using namespace std;

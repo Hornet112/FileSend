@@ -1,4 +1,3 @@
-import numpy as np
 from simulator import IntegratedSimulatorFunction
 
 import torch

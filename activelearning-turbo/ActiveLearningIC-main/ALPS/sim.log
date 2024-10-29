@@ -1,0 +1,407 @@
+
+                         Empyrean ALPS SPICE Simulator                          
+                      Version 2024.03, Build on 03/04/2024                      
+                              For [linux26-x86_64]                              
+                            Copyright (c) 2009-2024                             
+                         Empyrean Technology Co., Ltd.                          
+                              ALL RIGHTS RESERVED                               
+
+
+Note: User       = liyunqi
+      Host       = primeserveer
+      PID        = 58083
+      CPU        = AMD EPYC 7402 24-Core Processor
+      Processors = 96
+      RealCores  = 48
+      Loadavg    = 8.89%(1 minutes)  4.85%(5 minutes)  4.74%(15 minutes)
+      Memory     = 454.65/503.26 GB(Available/Physical)
+      Exe        = /home/toolbox/ALPS/tools/alps/platform/linux26-x86_64/bin/alps
+      Pwd        = /home/liyunqi/PycharmProjects/ActiveLearningIC-main/ALPS/opamp/simulation
+      Cmd        = opamp_spice_new 
+
+Note: Input netlist `opamp_spice_new'.
+
+Note: Output directory `opamp_spice_new.sim'.
+
+
+================================================================================
+2024-09-19 18:07 : Parser Started
+================================================================================
+
+Note: Simulation starts at 18:07:29, Thu Sep 19, 2024.
+
+pre-parser completed. 0.01s, 712K
+Note: Start to load input file, memory usage 0.
+Note: Total thread number = 1.
+
+
+================================================================================
+2024-09-19 18:07 : Parser Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 36.59M.
+================================================================================
+
+Note: Using license file `59001@127.0.0.1'.
+Checkout 1 ALPS_AS.
+
+Note: Using license file `59001@127.0.0.1'.
+Checkout 1 ALPS_SMS.
+
+
+================================================================================
+2024-09-19 18:07 : DB Basic Elaboration Started
+================================================================================
+
+Note: Loading simkit dynamic library libsimkit_models_loader.so .
+
+Note: simkit dynamic library is load successfully. Interface version: 5.0_pub.
+
+############################## circuit statistics ##############################
+vsource   : 6          resistor  : 5          capacitor : 5          
+mosfet    : 11         
+
+############################ model type statistics #############################
+Category        Total Quantity  Model Type                    Quantity        
+vsource         6               vsourceDc                     6               
+resistor        5               resistorLevel0                5               
+capacitor       5               capacitorLevel1               5               
+mosfet          11              mosfetLevel49                 11              
+
+
+############################ model card statistics #############################
+Category        Total Quantity  Model Name                    Quantity        
+mosfet          11              nchmis.10                     1               
+                                nchmis.12                     1               
+                                nchmis.16                     1               
+                                nchmis.6                      1               
+                                nchmis.7                      1               
+                                nchmis.8                      1               
+                                pchmis.6                      1               
+                                pchmis.7                      1               
+                                pchmis.8                      3               
+
+Warning: [opamp_spice_new:9]: Device is not found for output item `i(xm0D)'. The output item is ignored.
+Warning: [opamp_spice_new:9]: Device is not found for output item `i(xm0D)'. The output item is ignored.
+Warning: [opamp_spice_new:10]: Device is not found for output item `i(xm9D)'. The output item is ignored.
+Please refer to the file opamp_spice_new.warn for more warnings.
+
+================================================================================
+2024-09-19 18:07 : DB Basic Elaboration Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 112.3M.
+================================================================================
+
+
+================================================================================
+2024-09-19 18:07 : DB Partition Started
+================================================================================
+
+
+================================================================================
+2024-09-19 18:07 : DB Partition Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 113M.
+================================================================================
+
+
+================================================================================
+2024-09-19 18:07 : Simulation Engine Started
+================================================================================
+
+Note: Start to setup equation, memory usage 113M.
+
+================================================================================
+2024-09-19 18:07 : Elab for task Started
+================================================================================
+
+
+================================================================================
+2024-09-19 18:07 : Elab for task Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 113.3M.
+================================================================================
+
+Note: Threads number can be reset in file '/home/liyunqi/PycharmProjects/ActiveLearningIC-main/ALPS/opamp/simulation/opamp_spice_new.sim/58083.thread'
+
+########################### global option statistics ###########################
+temp      = 25        
+reltol    = 0.001      absi      = 1e-12      absv      = 1e-06      
+itl1      = 200        itl4      = 8          gmin      = 1e-12      
+runlvl    = 3          rabsshort = 0.001      scale     = 1          
+scalm     = 1          tnom      = 27         
+
+######################## user specified option statistics ######################
+parhier   = 1          post      = 1          ingold    = 2          
+
+
+######################## special option statistics ######################
+mode      = turbo      
+
+########################## matching output summary #############################
+Type                quantity  
+voltage             8         
+
+================================================================================
+
+########################## matching default output summary #####################
+Type                quantity  
+voltage             16        
+current             6         
+
+================================================================================
+
+Random number generator is srs.
+Total variable dimension is 96.
+Note: External sampling input file is `opamp_spice_new_sim.mc0'. 
+
+
+Note: Monte carlo trial 1. Sweep values: montecarlo = 1.
+Note: op iterated 97 steps.
+Note: AC analysis 1.0000hz -> 1.0000ghz at temperature = 25C.
+Note: Sweep trial 1. Sweep values: current frequency = 1.
+Note: Sweep trial 2. Sweep values: current frequency = 1.25893.
+Note: Sweep trial 3. Sweep values: current frequency = 1.58489.
+Note: Sweep trial 4. Sweep values: current frequency = 1.99526.
+Note: Sweep trial 5. Sweep values: current frequency = 2.51189.
+Note: Sweep trial 6. Sweep values: current frequency = 3.16228.
+Note: Sweep trial 7. Sweep values: current frequency = 3.98107.
+Note: Sweep trial 8. Sweep values: current frequency = 5.01187.
+Note: Sweep trial 9. Sweep values: current frequency = 6.30957.
+Note: Sweep trial 10. Sweep values: current frequency = 7.94328.
+Note: Sweep trial 11. Sweep values: current frequency = 10.
+Note: Sweep trial 12. Sweep values: current frequency = 12.5893.
+Note: Sweep trial 13. Sweep values: current frequency = 15.8489.
+Note: Sweep trial 14. Sweep values: current frequency = 19.9526.
+Note: Sweep trial 15. Sweep values: current frequency = 25.1189.
+Note: Sweep trial 16. Sweep values: current frequency = 31.6228.
+Note: Sweep trial 17. Sweep values: current frequency = 39.8107.
+Note: Sweep trial 18. Sweep values: current frequency = 50.1187.
+Note: Sweep trial 19. Sweep values: current frequency = 63.0957.
+Note: Sweep trial 20. Sweep values: current frequency = 79.4328.
+Note: Sweep trial 21. Sweep values: current frequency = 100.
+Note: Sweep trial 22. Sweep values: current frequency = 125.893.
+Note: Sweep trial 23. Sweep values: current frequency = 158.489.
+Note: Sweep trial 24. Sweep values: current frequency = 199.526.
+Note: Sweep trial 25. Sweep values: current frequency = 251.189.
+Note: Sweep trial 26. Sweep values: current frequency = 316.228.
+Note: Sweep trial 27. Sweep values: current frequency = 398.107.
+Note: Sweep trial 28. Sweep values: current frequency = 501.187.
+Note: Sweep trial 29. Sweep values: current frequency = 630.957.
+Note: Sweep trial 30. Sweep values: current frequency = 794.328.
+Note: Sweep trial 31. Sweep values: current frequency = 1000.
+Note: Sweep trial 32. Sweep values: current frequency = 1258.93.
+Note: Sweep trial 33. Sweep values: current frequency = 1584.89.
+Note: Sweep trial 34. Sweep values: current frequency = 1995.26.
+Note: Sweep trial 35. Sweep values: current frequency = 2511.89.
+Note: Sweep trial 36. Sweep values: current frequency = 3162.28.
+Note: Sweep trial 37. Sweep values: current frequency = 3981.07.
+Note: Sweep trial 38. Sweep values: current frequency = 5011.87.
+Note: Sweep trial 39. Sweep values: current frequency = 6309.57.
+Note: Sweep trial 40. Sweep values: current frequency = 7943.28.
+Note: Sweep trial 41. Sweep values: current frequency = 10000.
+Note: Sweep trial 42. Sweep values: current frequency = 12589.3.
+Note: Sweep trial 43. Sweep values: current frequency = 15848.9.
+Note: Sweep trial 44. Sweep values: current frequency = 19952.6.
+Note: Sweep trial 45. Sweep values: current frequency = 25118.9.
+Note: Sweep trial 46. Sweep values: current frequency = 31622.8.
+Note: Sweep trial 47. Sweep values: current frequency = 39810.7.
+Note: Sweep trial 48. Sweep values: current frequency = 50118.7.
+Note: Sweep trial 49. Sweep values: current frequency = 63095.7.
+Note: Sweep trial 50. Sweep values: current frequency = 79432.8.
+Note: Sweep trial 51. Sweep values: current frequency = 100000.
+Note: Sweep trial 52. Sweep values: current frequency = 125893.
+Note: Sweep trial 53. Sweep values: current frequency = 158489.
+Note: Sweep trial 54. Sweep values: current frequency = 199526.
+Note: Sweep trial 55. Sweep values: current frequency = 251189.
+Note: Sweep trial 56. Sweep values: current frequency = 316228.
+Note: Sweep trial 57. Sweep values: current frequency = 398107.
+Note: Sweep trial 58. Sweep values: current frequency = 501187.
+Note: Sweep trial 59. Sweep values: current frequency = 630957.
+Note: Sweep trial 60. Sweep values: current frequency = 794328.
+Note: Sweep trial 61. Sweep values: current frequency = 1e+06.
+Note: Sweep trial 62. Sweep values: current frequency = 1.25893e+06.
+Note: Sweep trial 63. Sweep values: current frequency = 1.58489e+06.
+Note: Sweep trial 64. Sweep values: current frequency = 1.99526e+06.
+Note: Sweep trial 65. Sweep values: current frequency = 2.51189e+06.
+Note: Sweep trial 66. Sweep values: current frequency = 3.16228e+06.
+Note: Sweep trial 67. Sweep values: current frequency = 3.98107e+06.
+Note: Sweep trial 68. Sweep values: current frequency = 5.01187e+06.
+Note: Sweep trial 69. Sweep values: current frequency = 6.30957e+06.
+Note: Sweep trial 70. Sweep values: current frequency = 7.94328e+06.
+Note: Sweep trial 71. Sweep values: current frequency = 1e+07.
+Note: Sweep trial 72. Sweep values: current frequency = 1.25893e+07.
+Note: Sweep trial 73. Sweep values: current frequency = 1.58489e+07.
+Note: Sweep trial 74. Sweep values: current frequency = 1.99526e+07.
+Note: Sweep trial 75. Sweep values: current frequency = 2.51189e+07.
+Note: Sweep trial 76. Sweep values: current frequency = 3.16228e+07.
+Note: Sweep trial 77. Sweep values: current frequency = 3.98107e+07.
+Note: Sweep trial 78. Sweep values: current frequency = 5.01187e+07.
+Note: Sweep trial 79. Sweep values: current frequency = 6.30957e+07.
+Note: Sweep trial 80. Sweep values: current frequency = 7.94328e+07.
+Note: Sweep trial 81. Sweep values: current frequency = 1e+08.
+Note: Sweep trial 82. Sweep values: current frequency = 1.25893e+08.
+Note: Sweep trial 83. Sweep values: current frequency = 1.58489e+08.
+Note: Sweep trial 84. Sweep values: current frequency = 1.99526e+08.
+Note: Sweep trial 85. Sweep values: current frequency = 2.51189e+08.
+Note: Sweep trial 86. Sweep values: current frequency = 3.16228e+08.
+Note: Sweep trial 87. Sweep values: current frequency = 3.98107e+08.
+Note: Sweep trial 88. Sweep values: current frequency = 5.01187e+08.
+Note: Sweep trial 89. Sweep values: current frequency = 6.30957e+08.
+Note: Sweep trial 90. Sweep values: current frequency = 7.94328e+08.
+Note: Sweep trial 91. Sweep values: current frequency = 1e+09.
+
+####################
+## AC Analysis
+#################### print information begin ####################
+x
+frequency     vm(vout)     vdb(vout)     vp(vout)     
+1.0000e+00    2.7789e+05   1.0888e+02    1.4092e+02   
+1.2589e+00    2.5031e+05   1.0797e+02    1.3437e+02   
+1.5849e+00    2.1963e+05   1.0683e+02    1.2785e+02   
+1.9953e+00    1.8801e+05   1.0548e+02    1.2169e+02   
+2.5119e+00    1.5757e+05   1.0395e+02    1.1613e+02   
+3.1623e+00    1.2990e+05   1.0227e+02    1.1129e+02   
+3.9811e+00    1.0578e+05   1.0049e+02    1.0721e+02   
+5.0119e+00    8.5413e+04   9.8630e+01    1.0383e+02   
+6.3096e+00    6.8570e+04   9.6723e+01    1.0107e+02   
+7.9433e+00    5.4839e+04   9.4782e+01    9.8851e+01   
+1.0000e+01    4.3750e+04   9.2820e+01    9.7069e+01   
+1.2589e+01    3.4848e+04   9.0844e+01    9.5649e+01   
+1.5849e+01    2.7730e+04   8.8859e+01    9.4521e+01   
+1.9953e+01    2.2051e+04   8.6868e+01    9.3630e+01   
+2.5119e+01    1.7528e+04   8.4875e+01    9.2931e+01   
+3.1623e+01    1.3929e+04   8.2878e+01    9.2386e+01   
+3.9811e+01    1.1067e+04   8.0881e+01    9.1968e+01   
+5.0119e+01    8.7927e+03   7.8882e+01    9.1655e+01   
+6.3096e+01    6.9851e+03   7.6884e+01    9.1430e+01   
+7.9433e+01    5.5489e+03   7.4884e+01    9.1280e+01   
+1.0000e+02    4.4080e+03   7.2885e+01    9.1199e+01   
+1.2589e+02    3.5016e+03   7.0885e+01    9.1182e+01   
+1.5849e+02    2.7816e+03   6.8886e+01    9.1228e+01   
+1.9953e+02    2.2097e+03   6.6887e+01    9.1338e+01   
+2.5119e+02    1.7554e+03   6.4888e+01    9.1521e+01   
+3.1623e+02    1.3946e+03   6.2889e+01    9.1784e+01   
+3.9811e+02    1.1081e+03   6.0892e+01    9.2141e+01   
+5.0119e+02    8.8063e+02   5.8896e+01    9.2613e+01   
+6.3096e+02    7.0003e+02   5.6902e+01    9.3222e+01   
+7.9433e+02    5.5670e+02   5.4912e+01    9.4001e+01   
+1.0000e+03    4.4301e+02   5.2928e+01    9.4988e+01   
+1.2589e+03    3.5292e+02   5.0953e+01    9.6232e+01   
+1.5849e+03    2.8161e+02   4.8993e+01    9.7792e+01   
+1.9953e+03    2.2529e+02   4.7055e+01    9.9733e+01   
+2.5119e+03    1.8095e+02   4.5151e+01    1.0213e+02   
+3.1623e+03    1.4621e+02   4.3300e+01    1.0505e+02   
+3.9811e+03    1.1918e+02   4.1524e+01    1.0853e+02   
+5.0119e+03    9.8366e+01   3.9857e+01    1.1260e+02   
+6.3096e+03    8.2553e+01   3.8335e+01    1.1714e+02   
+7.9433e+03    7.0741e+01   3.6993e+01    1.2198e+02   
+1.0000e+04    6.2071e+01   3.5858e+01    1.2677e+02   
+1.2589e+04    5.5787e+01   3.4931e+01    1.3111e+02   
+1.5849e+04    5.1218e+01   3.4189e+01    1.3458e+02   
+1.9953e+04    4.7775e+01   3.3584e+01    1.3683e+02   
+2.5119e+04    4.4951e+01   3.3055e+01    1.3765e+02   
+3.1623e+04    4.2324e+01   3.2532e+01    1.3695e+02   
+3.9811e+04    3.9559e+01   3.1945e+01    1.3479e+02   
+5.0119e+04    3.6436e+01   3.1231e+01    1.3135e+02   
+6.3096e+04    3.2880e+01   3.0339e+01    1.2695e+02   
+7.9433e+04    2.8974e+01   2.9240e+01    1.2198e+02   
+1.0000e+05    2.4929e+01   2.7934e+01    1.1686e+02   
+1.2589e+05    2.0993e+01   2.6442e+01    1.1191e+02   
+1.5849e+05    1.7371e+01   2.4797e+01    1.0734e+02   
+1.9953e+05    1.4185e+01   2.3037e+01    1.0324e+02   
+2.5119e+05    1.1474e+01   2.1194e+01    9.9585e+01   
+3.1623e+05    9.2194e+00   1.9294e+01    9.6303e+01   
+3.9811e+05    7.3744e+00   1.7355e+01    9.3284e+01   
+5.0119e+05    5.8795e+00   1.5387e+01    9.0405e+01   
+6.3096e+05    4.6759e+00   1.3397e+01    8.7533e+01   
+7.9433e+05    3.7102e+00   1.1388e+01    8.4527e+01   
+1.0000e+06    2.9367e+00   9.3571e+00    8.1240e+01   
+1.2589e+06    2.3169e+00   7.2983e+00    7.7516e+01   
+1.5849e+06    1.8197e+00   5.2001e+00    7.3185e+01   
+1.9953e+06    1.4197e+00   3.0441e+00    6.8073e+01   
+2.5119e+06    1.0969e+00   8.0324e-01    6.2010e+01   
+3.1623e+06    8.3564e-01   -1.5596e+00   5.4852e+01   
+3.9811e+06    6.2436e-01   -4.0913e+00   4.6515e+01   
+5.0119e+06    4.5473e-01   -6.8448e+00   3.7012e+01   
+6.3096e+06    3.2094e-01   -9.8716e+00   2.6472e+01   
+7.9433e+06    2.1845e-01   -1.3213e+01   1.5129e+01   
+1.0000e+07    1.4296e-01   -1.6896e+01   3.2723e+00   
+1.2589e+07    8.9840e-02   -2.0931e+01   -8.7911e+00  
+1.5849e+07    5.4219e-02   -2.5317e+01   -2.0758e+01  
+1.9953e+07    3.1475e-02   -3.0041e+01   -3.2334e+01  
+2.5119e+07    1.7634e-02   -3.5073e+01   -4.3254e+01  
+3.1623e+07    9.5822e-03   -4.0371e+01   -5.3335e+01  
+3.9811e+07    5.0805e-03   -4.5882e+01   -6.2514e+01  
+5.0119e+07    2.6437e-03   -5.1556e+01   -7.0860e+01  
+6.3096e+07    1.3567e-03   -5.7350e+01   -7.8552e+01  
+7.9433e+07    6.8903e-04   -6.3235e+01   -8.5849e+01  
+1.0000e+08    3.4696e-04   -6.9194e+01   -9.3059e+01  
+1.2589e+08    1.7323e-04   -7.5228e+01   -1.0052e+02  
+1.5849e+08    8.5569e-05   -8.1354e+01   -1.0859e+02  
+1.9953e+08    4.1622e-05   -8.7613e+01   -1.1758e+02  
+2.5119e+08    1.9791e-05   -9.4071e+01   -1.2770e+02  
+3.1623e+08    9.1164e-06   -1.0080e+02   -1.3893e+02  
+3.9811e+08    4.0328e-06   -1.0789e+02   -1.5105e+02  
+5.0119e+08    1.7026e-06   -1.1538e+02   -1.6357e+02  
+6.3096e+08    6.8451e-07   -1.2329e+02   -1.7591e+02  
+7.9433e+08    2.6259e-07   -1.3161e+02   1.7255e+02   
+1.0000e+09    9.6703e-08   -1.4029e+02   1.6239e+02   
+y
+##################### print information end #####################
+
+dc_gain    = 1.0888e+02 at = 1.0000e+00 from = 1.0000e+00 to = 1.0000e+09
+pm         = 5.9577e+01
+gbw        = 2.7330e+06
+
+MonteCarlo Statistics:
+    meas_variable = dc_gain
+    mean     =  1.0888e+02   median   =  1.0888e+02
+    sigma    =  -nan   mad      =  0.0000e+00
+    variance =  -nan   averDev  =  0.0000e+00
+    skew     =  -nan   kurtosis =  -nan
+    min      =  1.0888e+02   max      =  1.0888e+02
+    minIndex =  1    maxIndex =  1
+    95% CI of the mean = [-nan, -nan]
+
+    meas_variable = pm
+    mean     =  5.9577e+01   median   =  5.9577e+01
+    sigma    =  -nan   mad      =  0.0000e+00
+    variance =  -nan   averDev  =  0.0000e+00
+    skew     =  -nan   kurtosis =  -nan
+    min      =  5.9577e+01   max      =  5.9577e+01
+    minIndex =  1    maxIndex =  1
+    95% CI of the mean = [-nan, -nan]
+
+    meas_variable = gbw
+    mean     =  2.7330e+06   median   =  2.7330e+06
+    sigma    =  -nan   mad      =  0.0000e+00
+    variance =  -nan   averDev  =  0.0000e+00
+    skew     =  -nan   kurtosis =  -nan
+    min      =  2.7330e+06   max      =  2.7330e+06
+    minIndex =  1    maxIndex =  1
+    95% CI of the mean = [-nan, -nan]
+
+
+================================================================================
+2024-09-19 18:07 : Simulation Engine Completed
+Wall Time: 0 s. | CPU Time: 0 s. | Peak VM: 117.7M.
+================================================================================
+
+Note: Average threads: 1.
+
+############################### time statistics ################################
+
+       scope       wall time        cpu time            step
+       parse            0.07            0.13
+        elab            0.13            0.12
+          op            0.01               0              97
+          ac           -0.01               0              91
+       total             0.3            0.34
+
+Note: peak memory = 117.7M
+
+Note: Simulation starts at 18:07:30, Thu Sep 19, 2024.
+
+Note: Simulation finishes at 18:07:30, Thu Sep 19, 2024.
+
+Note: The total time for checking out license is 0s.
+
+Note: Total elapsed time 0s.
+
+Simulation completes with 0 error(s), 3 warning(s), and 15 notice(s).
